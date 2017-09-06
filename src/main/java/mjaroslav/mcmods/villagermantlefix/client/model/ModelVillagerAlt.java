@@ -1,12 +1,10 @@
 package mjaroslav.mcmods.villagermantlefix.client.model;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import mjaroslav.mcmods.villagermantlefix.VillagerMantleFix;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.client.model.ModelVillager;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.passive.EntityVillager;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class ModelVillagerAlt extends ModelVillager {
@@ -33,7 +31,6 @@ public class ModelVillagerAlt extends ModelVillager {
 	@Override
 	public void render(Entity e, float f, float f1, float f2, float f3, float f4, float f5) {
 		super.render(e, f, f1, f2, f3, f4, f5);
-		if (e instanceof EntityVillager && !VillagerMantleFix.villagerInBlackList(((EntityVillager) e).getProfession()))
-			this.villagerHeadwear.render(f5);
+		this.villagerHeadwear.render(f5);
 	}
 }
