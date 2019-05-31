@@ -8,7 +8,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class RenderVillagerAlt extends RenderVillager {
-	public RenderVillagerAlt(RenderManager renderManagerIn) {
+	RenderVillagerAlt(RenderManager renderManagerIn) {
 		super(renderManagerIn);
 		this.mainModel = new ModelVillagerAlt(0.0F);
 	}

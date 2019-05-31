@@ -3,13 +3,10 @@
   "modid": "villagermantlefix",
   "name": "Villager Mantle Fix",
   "description": "A small modification that returns to villagers their mantles",
-  "version": "1.8.9-1",
-  "mcversion": "1.8.9",
-  "url": "https://minecraft.curseforge.com/projects/villager-mantle-fix",
-  "updateUrl": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/villager-mantle-fix"
   "authorList": ["MJaroslav"],
-  "logoFile": "assets/villagermantlefix/logo.png",
-  "screenshots": [],
-  "dependencies": []
+  "logoFile": "assets/villagermantlefix/logo.png"
 }
 ]
