@@ -5,7 +5,7 @@
   "description": "A small modification that returns to villagers their mantles",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://minecraft.curseforge.com/projects/villager-mantle-fix"
+  "url": "https://minecraft.curseforge.com/projects/villager-mantle-fix",
   "authorList": ["MJaroslav"],
   "logoFile": "assets/villagermantlefix/logo.png"
 }

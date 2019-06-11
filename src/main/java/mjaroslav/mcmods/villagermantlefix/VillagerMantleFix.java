@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class VillagerMantleFix {
     public static final String MODID = "villagermantlefix";
     public static final String NAME = "Villager Matnle Fix";
-    public static final String VERSION = "1.12.2-1";
+    public static final String VERSION = "1.12.2-2";
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
